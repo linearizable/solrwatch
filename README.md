@@ -53,7 +53,10 @@ SolrWatch creates an index named solrwatch in elasticsearch when it starts.
 
 SolrWatch uses Grafana for visualization. In Grafana, we need to define an elasticsearch datasource named "SolrWatch". Sample Grafana templates are provided, which can be easily customized. You can create your own dashboards by connecting to solrwatch index in elasticsearch.
 
-
+![alt tag](https://raw.githubusercontent.com/vikas4s/solrwatch/master/share/grafana-screenshots/SolrWatch1.png)
+![alt tag](https://raw.githubusercontent.com/vikas4s/solrwatch/master/share/grafana-screenshots/SolrWatch2.png)
+![alt tag](https://raw.githubusercontent.com/vikas4s/solrwatch/master/share/grafana-screenshots/SolrWatch3.png)
+![alt tag](https://raw.githubusercontent.com/vikas4s/solrwatch/master/share/grafana-screenshots/SolrWatch4.png)
 
 
 
