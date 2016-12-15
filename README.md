@@ -1,0 +1,2 @@
+# solrwatch
+SolrWatch - Solr Monitoring
