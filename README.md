@@ -34,3 +34,37 @@ Update handlers handle indexinn requests. For each defined update handler, the f
 * Optimize rate (Optimizes/minute)
 * Total no. of transaction logs
 * Total size of transaction logs
+
+## Source of metrics
+
+Solrwatch fetches metrics from the following:
+
+* JMX/Mbeans e.g. http://localhost:8983/solr/admin/mbeans?stats=true
+* System stats e.g. http://localhost:8983/solr/admin/system?stats=true
+* Luke status e.g. http://localhost:8983/solr/admin/luke
+
+## Data storage
+
+SolrWatch uses elasticsearch to store the metrics time series data. A running elasticsearch cluster is required. The elasticsearch URL can be specified in app.conf file.
+
+SolrWatch creates an index named solrwatch in elasticsearch when it starts.
+
+## Visualization
+
+SolrWatch uses Grafana for visualization. In Grafana, we need to define an elasticsearch datasource named "SolrWatch". Sample Grafana templates are provided, which can be easily customized. You can create your own dashboards by connecting to solrwatch index in elasticsearch.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
