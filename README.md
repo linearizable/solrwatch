@@ -2,10 +2,10 @@
 
 SolrWatch is a Solr monitoring tool, which can track important metrics about Solr performance and visualize it. 
 
-* Prerequisites/Dependencies: [https://github.com/vikas4s/solrwatch/wiki/2.-Requirements](https://github.com/vikas4s/solrwatch/wiki/2.-Requirements)
-* Configuration: [https://github.com/vikas4s/solrwatch/wiki/3.-Configuration](https://github.com/vikas4s/solrwatch/wiki/3.-Configuration)
-* How to use: [https://github.com/vikas4s/solrwatch/wiki/4.-Setup-(How-to-use)](https://github.com/vikas4s/solrwatch/wiki/4.-Setup-(How-to-use))
-* Using docker image: [https://github.com/vikas4s/solrwatch/wiki/5.-Using-docker-image](https://github.com/vikas4s/solrwatch/wiki/5.-Using-docker-image)
+* Prerequisites/Dependencies: [https://github.com/vikas4s/solrwatch/wiki/1.-Requirements](https://github.com/vikas4s/solrwatch/wiki/1.-Requirements)
+* Configuration: [https://github.com/vikas4s/solrwatch/wiki/2.-Configuration](https://github.com/vikas4s/solrwatch/wiki/2.-Configuration)
+* How to use: [https://github.com/vikas4s/solrwatch/wiki/3.-Setup-(How-to-use)](https://github.com/vikas4s/solrwatch/wiki/3.-Setup-(How-to-use))
+* Using docker image: [https://github.com/vikas4s/solrwatch/wiki/4.-Using-docker-image](https://github.com/vikas4s/solrwatch/wiki/4.-Using-docker-image)
 
 ## Metrics
 
