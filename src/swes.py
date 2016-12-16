@@ -8,7 +8,6 @@ import pprint
 
 class SWES:
     def __init__(self, conf_data):
-        #self.es = Elasticsearch([{'host': conf_data['elasticsearch']['host'], 'port': conf_data['elasticsearch']['port']}])
         self.es = Elasticsearch([{'host': conf_data['elasticsearch']['host']}])
         self.index_name = conf_data['elasticsearch']['index']
         self.type_name = conf_data['elasticsearch']['type']
@@ -21,4 +20,7 @@ class SWES:
         try:
             return self.es.search(index=self.index_name, body={"size": 1, "sort": {"DATETIME": {"order": "desc"}}})
         except:
-            return {'hits': {'total': 0}}    
+            return self.get_blank_document()
+
+    def get_blank_document(self):
+        return {'hits': {'total': 0}}    
